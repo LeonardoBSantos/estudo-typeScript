@@ -11,10 +11,5 @@ O commit inicial desse repositório contém a versão básica fornecida pelo cur
 
 <img src="assets/img1.png">
 
-1) Carregamento de módulo: branch feature/carregando-modulo - aula1-ex1
-2) Criando modulo Negociacao e importando no app.js: : branch feature/carregando-modulo - aula1-ex2: 
-
-<img src="assets/img2.png">
-
-3) 
+1) Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução: branch feature/carregando-modulo; 
 
