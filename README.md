@@ -14,4 +14,5 @@ O commit inicial desse repositório contém a versão básica fornecida pelo cur
 ## Exercícios
 1) Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução: branch feature/carregando-modulo; 
 2) Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação: branch feature/aula2-aula2-ex1;
-3) Automatizando compilação de arquivos
+3) Automatizando compilação de arquivos: branch feature/aula2-aula2-ex2;
+4) Declarando propriedades privadas com modificadores do TypeScript: branch feature/aula2-aula2-ex3;
