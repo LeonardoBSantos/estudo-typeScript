@@ -7,7 +7,7 @@ export class Negociacoes{
         this.negociacoes.push(negociacao);
     }
 
-    lista(): Array<Negociacao>{
-        return [... this.negociacoes]; //Pega acada elemento de negociacoes e coloca dentro de uma nova lista
+    lista(): ReadonlyArray<Negociacao>{
+        return this.negociacoes;
     }
 }

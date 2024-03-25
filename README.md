@@ -42,5 +42,6 @@ No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos
 ### Branch feature/aula4
 9) Criando modelo lista de negociacoes: ex1
 10) Integrando modelo de lista de negociacoes com a controller: ex2
-11) Problema do ".pop" na lista de negociações: ex3
+11) Problema do ".pop" na lista de negociações: ex4
 12) Resolvendo problema acima, evitando mutabilidade da lista: ex4
+13) Resolvendo o problema acima com ReadOnlyArray: ex5
