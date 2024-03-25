@@ -30,4 +30,4 @@ No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos
 5) Integrando ao formulário: branch feature/aula3-aula3-ex1;
 6) Preenchendo Modelo : branch feature/aula3-aula3-ex2;
 7) Substituindo tipo implícito any e convertendo para date/number: branch feture/aula3-aula3-ex3;
-8) 
+8) Limpando formulário e alterando foco para data no fim da inclusão: branch feture/aula3-ex5;
