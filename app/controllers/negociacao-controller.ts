@@ -1,9 +1,11 @@
 import { Negociacao } from "../models/negociacao.js";
+import { Negociacoes } from "../models/negociacoes.js";
 
 export class NegociacaoController{
     private inputData: HTMLInputElement;
     private inputQuantidade: HTMLInputElement;
     private inputValor: HTMLInputElement;
+    private negociacoes = new Negociacoes();
 
     constructor(){
         this.inputData = document.querySelector("#data");
@@ -13,7 +15,12 @@ export class NegociacaoController{
 
     adiciona(): void {
         const negociacao = this.criaNegociacao();
-        console.log(negociacao);
+        this.negociacoes.adiciona(negociacao);
+        //Problema: O .pop remove o último elemento da lista fazendo com que ela fique sempre vazia. O Lista() é um método criado apenas para listar o conteúdo do array mas está frágil
+        // e dando acesso ao método pop. Solucionando com ReadOnlyArray no retorno do método this.negociacoes.lista() a linha de baixo não compila indicando problema em tempo de 
+        //desenvolvimento
+        //this.negociacoes.lista().pop();  
+        console.log(this.negociacoes);
         this.limparFormulário();
     }
 
