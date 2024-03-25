@@ -22,12 +22,23 @@ Na estrutura de um projeto utilizando typescript, a pasta dist será compartilha
 No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos mutar o valor dessa propriedade em outro ponto do código, veremos que o valor não será modificado, porém será criada uma propriedade dinamicamente de mesmo nome e com o novo valor (isso só será visível em tempo de execução). A primeira motivação do TypeScript é exatamente isso, indicar em tempo de desenvolvimento a ocorrência de falhas, defeitos ou erros cometidos no código. Nesse caso, mutar o valor de uma propriedade privada é um erro no desenvolvimento e adicionar uma propriedade dinamicamente não é o comportamento que nos trás benefícios.
 
 
-## Exercícios
-1) Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução: branch feature/carregando-modulo; 
-2) Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação: branch feature/aula2-aula2-ex1;
-3) Automatizando compilação de arquivos: branch feature/aula2-aula2-ex2;
-4) Declarando propriedades privadas com modificadores do TypeScript: branch feature/aula2-aula2-ex3;
-5) Integrando ao formulário: branch feature/aula3-aula3-ex1;
-6) Preenchendo Modelo : branch feature/aula3-aula3-ex2;
-7) Substituindo tipo implícito any e convertendo para date/number: branch feture/aula3-aula3-ex3;
-8) Limpando formulário e alterando foco para data no fim da inclusão: branch feture/aula3-ex5;
+## Exercícios PT.1
+
+### Branch carregando-modulo
+
+1) Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução
+
+### Branch feature/aula2
+2) Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação: aula2-ex1;
+3) Automatizando compilação de arquivos: aula2-ex2;
+4) Declarando propriedades privadas com modificadores do TypeScript: aula2-ex3;
+
+### Branch feature/aula3
+5) Integrando ao formulário: aula3-ex1;
+6) Preenchendo Modelo : aula3-ex2;
+7) Substituindo tipo implícito any e convertendo para date/number: aula3-ex3;
+8) Limpando formulário e alterando foco para data no fim da inclusão: ex5;
+
+### Branch feature/aula4
+9) Criando modelo lista de negociacoes: ex1
+10) Integrando modelo de lista de negociacoes com a controller: ex2
