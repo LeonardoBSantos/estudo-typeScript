@@ -27,4 +27,5 @@ No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos
 2) Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação: branch feature/aula2-aula2-ex1;
 3) Automatizando compilação de arquivos: branch feature/aula2-aula2-ex2;
 4) Declarando propriedades privadas com modificadores do TypeScript: branch feature/aula2-aula2-ex3;
-5) 
+5) Integrando ao formulário: branch feature/aula3-aula3-ex1;
+6) Preenchendo Modelo : branch feature/aula3-aula3-ex2;
