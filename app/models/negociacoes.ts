@@ -8,6 +8,6 @@ export class Negociacoes{
     }
 
     lista(): Array<Negociacao>{
-        return this.negociacoes;
+        return [... this.negociacoes]; //Pega acada elemento de negociacoes e coloca dentro de uma nova lista
     }
 }

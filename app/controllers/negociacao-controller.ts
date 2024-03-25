@@ -16,6 +16,9 @@ export class NegociacaoController{
     adiciona(): void {
         const negociacao = this.criaNegociacao();
         this.negociacoes.adiciona(negociacao);
+        //Problema: O .pop remove o último elemento da lista fazendo com que ela fique sempre vazia. O Lista() é um método criado apenas para listar o conteúdo do array mas está frágil
+        // e dando acesso ao método pop. 
+        this.negociacoes.lista().pop();  
         console.log(this.negociacoes);
         this.limparFormulário();
     }
