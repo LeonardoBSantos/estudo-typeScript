@@ -45,3 +45,6 @@ No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos
 11) Problema do ".pop" na lista de negociações: ex4
 12) Resolvendo problema acima, evitando mutabilidade da lista: ex4
 13) Resolvendo o problema acima com ReadOnlyArray: ex5
+
+### Branch feature/aula5
+14) Declarando parâmetros no próprio construtor: ex1
