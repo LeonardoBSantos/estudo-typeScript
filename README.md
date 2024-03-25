@@ -26,25 +26,25 @@ No Javascript ao declarar uma propriedade do tipo privada e logo após tentarmos
 
 ### Branch carregando-modulo
 
-1) Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução
+    1. Criação implícita de variáveis e falha na lógica aparecendo apenas em tempo de execução
 
 ### Branch feature/aula2
-2) Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação: aula2-ex1;
-3) Automatizando compilação de arquivos: aula2-ex2;
-4) Declarando propriedades privadas com modificadores do TypeScript: aula2-ex3;
+    1. Baixando typeScript, configurando compilador com erros aparecendo em tempo de desenvolvimento, gerando arquivos js na compilação, configurando compilador para não gerar arquivos js em caso de falha de compilação;
+    2. Automatizando compilação de arquivos;
+    3. Declarando propriedades privadas com modificadores do TypeScript;
 
 ### Branch feature/aula3
-5) Integrando ao formulário: aula3-ex1;
-6) Preenchendo Modelo : aula3-ex2;
-7) Substituindo tipo implícito any e convertendo para date/number: aula3-ex3;
-8) Limpando formulário e alterando foco para data no fim da inclusão: ex5;
+    1. Integrando ao formulário: aula3-ex1;
+    2. Preenchendo Modelo : aula3-ex2;
+    3. Substituindo tipo implícito any e convertendo para date/number: aula3-ex3;
+    5. Limpando formulário e alterando foco para data no fim da inclusão: ex5;
 
 ### Branch feature/aula4
-9) Criando modelo lista de negociacoes: ex1
-10) Integrando modelo de lista de negociacoes com a controller: ex2
-11) Problema do ".pop" na lista de negociações: ex4
-12) Resolvendo problema acima, evitando mutabilidade da lista: ex4
-13) Resolvendo o problema acima com ReadOnlyArray: ex5
+    1.Criando modelo lista de negociacoes: ex1
+    2. Integrando modelo de lista de negociacoes com a controller: ex2
+    4. Problema do ".pop" na lista de negociações: ex4
+    4. Resolvendo problema acima, evitando mutabilidade da lista: ex4
+    5. Resolvendo o problema acima com ReadOnlyArray: ex5
 
 ### Branch feature/aula5
-14) Declarando parâmetros no próprio construtor: ex1
+    1. Declarando parâmetros no próprio construtor: ex1
